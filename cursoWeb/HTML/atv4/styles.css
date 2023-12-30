@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(255, 227, 70);
+    color: blue;
+}
+header{
+    font-style: italic;
+}
+a{
+    font-size: larger;
+    font-style: italic;
+    color: rgb(159, 56, 255);
+}
