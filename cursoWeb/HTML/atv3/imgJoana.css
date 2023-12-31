@@ -6,5 +6,9 @@ body{
     color: white;
 }
 a{
-    color: blue;
+    font-size: xx-large;
+    color: black;
+}
+button{
+    background-color: #22D4FD;
 }
