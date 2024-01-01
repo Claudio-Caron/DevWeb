@@ -6,14 +6,16 @@
     color:red;
 }
 body{
+    box-sizing: border-box;/* limita imagens de ultrapassarem o tamanho máximo disponível em relação ao elemento pai*/
     background-color: darkgoldenrod;
     color: azure;
+    height: 100vh;/* aplica e ajusta o tamanho da página conforme o espaço disponível*/
 }
 h1{
-    color:black
+    color:black;
 }
 footer{
-    margin: 34%;
-    padding: 5%;
+    margin: 34px;/*margem da estrutura*/
+    padding: 25px;/*controla o espaço entre o conteúdo e as bordas*/
     color: blue;
 }
