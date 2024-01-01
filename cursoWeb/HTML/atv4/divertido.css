@@ -10,3 +10,11 @@ header{
     color: darkviolet;
     font-size: medium;
 }
+.blog{
+    color: chartreuse;
+    font-style: italic;
+}
+body{
+    background-color: black;
+    color: white;
+}
