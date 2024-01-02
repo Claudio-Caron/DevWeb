@@ -6,7 +6,7 @@
     color:red;
 }
 body{
-    box-sizing: border-box;/* limita imagens de ultrapassarem o tamanho máximo disponível em relação ao elemento pai*/
+    box-sizing: border-box;/* limita imagens de ultrapassarem o tamanho máximo disponível em relação ao elemento paiProperties for the Parent*/
     background-color: darkgoldenrod;
     color: azure;
     height: 100vh;/* aplica e ajusta o tamanho da página conforme o espaço disponível*/
@@ -18,4 +18,8 @@ footer{
     margin: 34px;/*margem da estrutura*/
     padding: 25px;/*controla o espaço entre o conteúdo e as bordas*/
     color: blue;
+}
+.entre-espacos{
+    display: flex;
+    align-items: center;
 }
