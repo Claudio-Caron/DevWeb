@@ -2,6 +2,7 @@ strong{
     color: #22D4FD;
 }
 body{
+    box-sizing: border-box;
     background-color: black;
     color: white;
 }
@@ -11,4 +12,8 @@ a{
 }
 button{
     background-color: #22D4FD;
+}
+.alinhamento-cetral{
+    display: flex;
+    align-items: center;
 }
