@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
 body {
     background-color: black;
     color: white;
@@ -7,9 +8,6 @@ body {
 }
 
 
-a {
-    color: black;
-}
 
 strong {
     color: #22D4FD;
@@ -27,9 +25,8 @@ strong {
     /* margin: 10%; */
 }
 
-.posicionamento__blocos{
+.posicionamento__blocos {}
 
-}
 .posicionamento__blocos__titulo {
     /* height: ; */
     /* width */
@@ -39,10 +36,28 @@ strong {
     height: 168px;
     width: 593px;
 }
-.posicionamento__blocos__texto{
+
+.posicionamento__blocos__texto {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     line-height: 36px;
     height: 144px;
     width: 593px;
+}
+
+.posicionamento__blocos__botao {
+    font-family: 'Montserrat', sans-serif;
+    height: 64px;
+    width: 584px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin: 10%; */
+    background-color: #22D4FD;
+}
+a {
+    background-color: #22D4FD;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
 }
