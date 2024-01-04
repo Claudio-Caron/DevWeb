@@ -25,7 +25,7 @@ strong {
     /* margin: 10%; */
 }
 
-.posicionamento__blocos {}
+/* .posicionamento__blocos {} */
 
 .posicionamento__blocos__titulo {
     /* height: ; */
@@ -46,18 +46,23 @@ strong {
 }
 
 .posicionamento__blocos__botao {
-    font-family: 'Montserrat', sans-serif;
     height: 64px;
     width: 584px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* margin: 10%; */
-    background-color: #22D4FD;
+    /* margin: 10%;  */
 }
-a {
-    background-color: #22D4FD;
+.a{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
     font-size: 24px;
     line-height: 36px;
-    color: black;
+    width: 136;
+    height: 36;
 }
+.button{
+    background-color: #22D4FD;
+    height: 64px;
+    width: 280px;
+} 
