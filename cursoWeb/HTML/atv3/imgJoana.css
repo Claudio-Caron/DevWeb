@@ -22,8 +22,8 @@ strong {
     flex-direction: row;
     /*Padrão*/
     justify-content: space-around;
-    /* margin: 10%; */
 }
+
 
 /* .posicionamento__blocos {} */
 
@@ -55,14 +55,14 @@ strong {
 }
 .a{
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #22D4FD;
     font-size: 24px;
     line-height: 36px;
     width: 136;
     height: 36;
 }
 .button{
-    background-color: #22D4FD;
+    color: #22D4FD;
     height: 64px;
     width: 280px;
 } 
