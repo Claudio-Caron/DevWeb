@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 body {
     background-color: black;
     color: white;
     height: 100vh;
     width: 100vw;
+    margin: 10%;
 }
 
 
@@ -22,6 +23,7 @@ strong {
     flex-direction: row;
     /*Padrão*/
     justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -48,21 +50,21 @@ strong {
 .posicionamento__blocos__botao {
     height: 64px;
     width: 584px;
+    justify-content: space-between;
+    /* margin: 10%;  */
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    /* margin: 10%;  */
 }
-.a{
-    font-family: 'Montserrat', sans-serif;
-    color: #22D4FD;
+
+.posicionamento__blocos__botao__ancora {
+    color: black;
+    background-color: #22D4FD;
     font-size: 24px;
-    line-height: 36px;
-    width: 136;
-    height: 36;
+    border-radius:  ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: ;
+    font-style: none;
+    padding-bottom: ;
 }
-.button{
-    color: #22D4FD;
-    height: 64px;
-    width: 280px;
-} 
