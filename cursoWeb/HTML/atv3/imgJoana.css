@@ -5,7 +5,7 @@ body {
     color: white;
     height: 100vh;
     width: 100vw;
-    margin: 10%;
+    display: flex;
 }
 
 
@@ -22,8 +22,9 @@ strong {
     display: flex;
     flex-direction: row;
     /*Padrão*/
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 10%;
 }
 
 
@@ -48,8 +49,6 @@ strong {
 }
 
 .posicionamento__blocos__botao {
-    height: 64px;
-    width: 584px;
     justify-content: space-between;
     /* margin: 10%;  */
     align-items: center;
@@ -59,12 +58,22 @@ strong {
 
 .posicionamento__blocos__botao__ancora {
     color: black;
-    background-color: #22D4FD;
     font-size: 24px;
-    border-radius:  ;
+    text-align: center;
+    line-height: 36px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    width: ;
-    font-style: none;
-    padding-bottom: ;
+    text-decoration: none;
+    /* width: ; */
+    /* font-style: none; */
+    /* padding-bottom: ; */
+    
+}
+.posicionamento__botao{
+    background-color: #22D4FD;
+    width: 280px;
+    height: 78px;
+    border-radius: 16px;
+    border-style: none;
+    padding: 21.61px 0;
 }
