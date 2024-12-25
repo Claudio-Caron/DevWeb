@@ -19,7 +19,7 @@ export class Motivacao {
         return this._quantidade;
     }
 
-    Mensagem_motivacao(){
+    Mensagem_motivacao():string{
         return "mensagem : *contatenação*";
     }
 }
