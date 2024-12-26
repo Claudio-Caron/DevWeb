@@ -1,4 +1,4 @@
-import { Motivacao } from "../models/motivacao";
+import { Negociacao } from "../models/negociacao";
 export class NegociacaoController {
     constructor() {
         this.inputData = document.querySelector('#data');
@@ -6,11 +6,20 @@ export class NegociacaoController {
         this.inputValor = document.querySelector('#valor');
     }
     adiciona() {
+        const negociacao = this.criaNegociacao();
+        console.log(negociacao);
+    }
+    criaNegociacao() {
         const exp = /-/g;
         const date = new Date(this.inputData.value.replace(exp, ','));
         const valor = parseFloat(this.inputQuantidade.value);
         const quantidade = parseInt(this.inputQuantidade.value);
-        const negociacao = new Motivacao(date, quantidade, valor);
-        console.log(negociacao);
+        return new Negociacao(date, quantidade, valor);
+    }
+    limparFormulario() {
+        this.inputData.value = '';
+        this.inputQuantidade.value = '';
+        this.inputValor.value = '';
+        this.inputData.focus();
     }
 }

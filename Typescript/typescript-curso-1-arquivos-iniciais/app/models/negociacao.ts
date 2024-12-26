@@ -1,8 +1,8 @@
-export class Motivacao {
+export class Negociacao {
     private _data:Date;
     private _volume:number;
     private _quantidade:number;
-
+    
     constructor(data:Date, volume:number, quantidade:number){
         this._data = data;
         this._volume = volume;
