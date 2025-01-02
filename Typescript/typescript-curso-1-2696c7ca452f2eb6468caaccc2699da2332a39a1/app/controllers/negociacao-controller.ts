@@ -2,6 +2,7 @@ import { MensagemView } from './../views/mensagemView.js';
 import { Negociacao } from '../models/negociacao.js';
 import { Negociacoes } from '../models/negociacoes.js';
 import { NegociacoesView } from '../views/negociacoes-view.js';
+import { DiasDaSemana } from '../Enums/dias_da_semana.js';
 
 export class NegociacaoController {
     private inputData: HTMLInputElement;
@@ -51,6 +52,6 @@ export class NegociacaoController {
         this.mensagemView.update('Negociacao adicionada com sucesso');
     }
     private validDate(data:Date):boolean{
-        return data.getDay()<6 && data.getDay()>0;
+        return data.getDay()<DiasDaSemana.SATURDAY && data.getDay()>DiasDaSemana.SUNDAY;
     }
 }
